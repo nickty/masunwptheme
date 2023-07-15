@@ -53,14 +53,7 @@
                                         <img src="assets/images/logo.png" alt="Logo">
                                     </a>
                                 </div>
-                                <?php
-wp_nav_menu(array(
-    'theme_location' => 'custom_menu', // Replace 'custom_menu' with a unique menu location name.
-    'container' => false,
-    'menu_class' => 'custom-menu',
-    'fallback_cb' => false
-));
-?>
+ 
 
                                 <div class="nav__menu">
                                     <div class="nav__menu-logo d-flex">
@@ -72,10 +65,19 @@ wp_nav_menu(array(
                                         </a>
                                     </div>
                                     <ul class="nav__menu-items">
+                                    <?php 
+ wp_nav_menu(array(
+    'theme_location' => 'custom-menu',
+    'container' => 'nav__dropdown nav__dropdown--alt',
+    'container_class' => 'nav__menu-item nav__menu-item--dropdown',
+    'menu_class' => 'nav__menu-item',
+  ));
+ ?>
                                         <li class="nav__menu-item nav__menu-item--dropdown">
                                             <button aria-label="dropdown menu container" class="nav__menu-link nav__menu-link--dropdown">
                                                 Home
                                             </button>
+
                                             <div class="nav__dropdown nav__dropdown--alt">
                                                 <ul>
                                                     <li>
