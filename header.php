@@ -50,7 +50,7 @@
                             <div class="nav__content">
                                 <div class="nav__logo">
                                     <a href="index.html">
-                                        <img src="assets/images/logo.png" alt="Logo">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="Logo">
                                     </a>
                                 </div>
  
@@ -58,7 +58,7 @@
                                 <div class="nav__menu">
                                     <div class="nav__menu-logo d-flex">
                                         <a href="index.html" class="text-center hide-nav">
-                                            <img src="assets/images/logo.png" alt="Logo">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="Logo">
                                         </a>
                                         <a href="javascript:void(0)" class="nav__menu-close">
                                             <i class="fa-solid fa-xmark"></i>
@@ -68,7 +68,7 @@
                                     <?php 
  wp_nav_menu(array(
     'theme_location' => 'custom-menu',
-    'container' => 'nav__dropdown nav__dropdown--alt',
+    'container' => 'nav__menu-item',
     'container_class' => 'nav__menu-item nav__menu-item--dropdown',
     'menu_class' => 'nav__menu-item',
   ));
@@ -124,7 +124,7 @@
                                                         </div>
                                                         <div class="mega-menu__single-item">
                                                             <a href="service-details.html">
-                                                                <img src="assets/images/services/one.png" alt="Services">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/one.png" alt="Services">
                                                                 <span>
                                                                     Clipping path services
                                                                 </span>
@@ -132,7 +132,7 @@
                                                         </div>
                                                         <div class="mega-menu__single-item">
                                                             <a href="service-details.html">
-                                                                <img src="assets/images/services/two.png" alt="Services">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/two.png" alt="Services">
                                                                 <span>
                                                                     product color schem
                                                                 </span>
@@ -317,8 +317,4 @@
         </header>
         <!-- ==== / header end ==== -->
 
-    <header>
-        <h1><?php bloginfo('name'); ?></h1>
-        <!-- Navigation menu -->
-        <?php wp_nav_menu(array('theme_location' => 'primary-menu')); ?>
-    </header>
+  
