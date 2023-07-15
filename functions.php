@@ -66,6 +66,15 @@ add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
 
 
 
+// adding custom navigation menu
+function register_custom_menu() {
+    register_nav_menus(array(
+        'custom_menu' => 'Custom Menu', // Replace 'custom_menu' with a descriptive name for your menu location.
+    ));
+}
+add_action('after_setup_theme', 'register_custom_menu');
+
+
 
 
 ?>
