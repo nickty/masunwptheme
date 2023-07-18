@@ -25,14 +25,14 @@
                     </div>
                     <div class="col-12 col-md-4 col-lg-4 col-xl-4">
                         <div class="banner-two__thumb">
-                            <img src="assets/images/banner/banner-two-thumb.png" alt="Image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/banner/banner-two-thumb.png" alt="Image">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="banner-two__small-thumb">
-                <img src="assets/images/banner/banner-two-one.png" alt="Image" class="one">
-                <img src="assets/images/banner/banner-two-anime.png" alt="Image" class="two">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/banner/banner-two-one.png" alt="Image" class="one">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/banner/banner-two-anime.png" alt="Image" class="two">
             </div>
         </section>
         <!-- ==== / banner section end ==== -->
@@ -45,7 +45,7 @@
                             <div class="counter__item wow fadeInUp" data-wow-duration="600ms" data-wow-delay="300ms">
                                 <div class="counter__item-inner">
                                     <div class="counter__item-inner__thumb">
-                                        <img src="assets/images/counter/one.png" alt="Image">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/counter/one.png" alt="Image">
                                     </div>
                                     <div class="counter__item-inner__content">
                                         <h4 class="h4">
@@ -59,7 +59,7 @@
                             <div class="counter__item wow fadeInUp" data-wow-duration="600ms" data-wow-delay="600ms">
                                 <div class="counter__item-inner">
                                     <div class="counter__item-inner__thumb">
-                                        <img src="assets/images/counter/two.png" alt="Image">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/counter/two.png" alt="Image">
                                     </div>
                                     <div class="counter__item-inner__content">
                                         <h4 class="h4">
@@ -73,7 +73,7 @@
                             <div class="counter__item wow fadeInUp" data-wow-duration="600ms" data-wow-delay="900ms">
                                 <div class="counter__item-inner">
                                     <div class="counter__item-inner__thumb">
-                                        <img src="assets/images/counter/three.png" alt="Image">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/counter/three.png" alt="Image">
                                     </div>
                                     <div class="counter__item-inner__content">
                                         <h4 class="h4">
@@ -87,7 +87,7 @@
                             <div class="counter__item wow fadeInUp" data-wow-duration="600ms" data-wow-delay="1200ms">
                                 <div class="counter__item-inner">
                                     <div class="counter__item-inner__thumb">
-                                        <img src="assets/images/counter/four.png" alt="Image">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/counter/four.png" alt="Image">
                                     </div>
                                     <div class="counter__item-inner__content">
                                         <h4 class="h4">
@@ -110,7 +110,7 @@
                 <div class="row gaper align-items-center">
                     <div class="col-12 col-lg-5 col-xl-6">
                         <div class="about-two__thumb text-lg-end wow fadeInLeft" data-wow-duration="600ms" data-wow-delay="600ms">
-                            <img src="assets/images/about/about-two-thumb.png" alt="Image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/about/about-two-thumb.png" alt="Image">
                         </div>
                     </div>
                     <div class="col-12 col-md-10 col-lg-7 col-xl-6 col-xxl-5">
@@ -143,8 +143,8 @@
                 </div>
             </div>
             <div class="about__anime">
-                <img src="assets/images/about/polygon.png" alt="Image" class="one">
-                <img src="assets/images/about/polygon-two.png" alt="Image" class="two">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/about/polygon.png" alt="Image" class="one">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/about/polygon-two.png" alt="Image" class="two">
             </div>
         </section>
         <!-- ==== / about section end ==== -->
@@ -168,7 +168,7 @@
                     <div class="col-12 col-md-6 col-xl-4">
                         <div class="services__slider-single fi wow fadeInUp" data-wow-duration="600ms" data-wow-delay="600ms">
                             <div class="thumb">
-                                <img src="assets/images/services/slide-two.png" alt="Image">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/slide-two.png" alt="Image">
                             </div>
                             <div class="services__slider-single__content">
                                 <h4 class="h4">Clipping path services</h4>
@@ -184,7 +184,7 @@
                     <div class="col-12 col-md-6 col-xl-4">
                         <div class="services__slider-single tw wow fadeInUp" data-wow-duration="600ms" data-wow-delay="600ms">
                             <div class="thumb">
-                                <img src="assets/images/services/slide-three.png" alt="Image">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/slide-three.png" alt="Image">
                             </div>
                             <div class="services__slider-single__content">
                                 <h4 class="h4">Clipping path services</h4>
@@ -200,7 +200,7 @@
                     <div class="col-12 col-md-6 col-xl-4">
                         <div class="services__slider-single th wow fadeInUp" data-wow-duration="600ms" data-wow-delay="1200ms">
                             <div class="thumb">
-                                <img src="assets/images/services/slide-four.png" alt="Image">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/slide-four.png" alt="Image">
                             </div>
                             <div class="services__slider-single__content">
                                 <h4 class="h4">Clipping path services</h4>
@@ -216,7 +216,7 @@
                     <div class="col-12 col-md-6 col-xl-4">
                         <div class="services__slider-single on wow fadeInUp" data-wow-duration="600ms" data-wow-delay="1500ms">
                             <div class="thumb">
-                                <img src="assets/images/services/slide-one.png" alt="Image">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/slide-one.png" alt="Image">
                             </div>
                             <div class="services__slider-single__content">
                                 <h4 class="h4">Clipping path services</h4>
@@ -232,7 +232,7 @@
                     <div class="col-12 col-md-6 col-xl-4">
                         <div class="services__slider-single si wow fadeInUp" data-wow-duration="600ms" data-wow-delay="1800ms">
                             <div class="thumb">
-                                <img src="assets/images/services/slide-six.png" alt="Image">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/slide-six.png" alt="Image">
                             </div>
                             <div class="services__slider-single__content">
                                 <h4 class="h4">Clipping path services</h4>
@@ -248,7 +248,7 @@
                     <div class="col-12 col-md-6 col-xl-4">
                         <div class="services__slider-single fo wow fadeInUp" data-wow-duration="600ms" data-wow-delay="2200ms">
                             <div class="thumb">
-                                <img src="assets/images/services/slide-five.png" alt="Image">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/slide-five.png" alt="Image">
                             </div>
                             <div class="services__slider-single__content">
                                 <h4 class="h4">Clipping path services</h4>
@@ -292,7 +292,7 @@
                                         <div class="feature__item">
                                             <div class="feature__item-inner">
                                                 <div class="thumb">
-                                                    <img src="assets/images/feature/one.png" alt="Image">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/images/feature/one.png" alt="Image">
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="h5 text-uppercase">edited by hand</h5>
@@ -306,7 +306,7 @@
                                         <div class="feature__item">
                                             <div class="feature__item-inner">
                                                 <div class="thumb">
-                                                    <img src="assets/images/feature/two.png" alt="Image">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/images/feature/two.png" alt="Image">
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="h5 text-uppercase">pixel perfect result</h5>
@@ -320,7 +320,7 @@
                                         <div class="feature__item">
                                             <div class="feature__item-inner">
                                                 <div class="thumb">
-                                                    <img src="assets/images/feature/three.png" alt="Image">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/images/feature/three.png" alt="Image">
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="h5 text-uppercase">24/7 support</h5>
@@ -334,7 +334,7 @@
                                         <div class="feature__item">
                                             <div class="feature__item-inner">
                                                 <div class="thumb">
-                                                    <img src="assets/images/feature/one.png" alt="Image">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/images/feature/one.png" alt="Image">
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="h5 text-uppercase">edited by hand</h5>
@@ -348,7 +348,7 @@
                                         <div class="feature__item">
                                             <div class="feature__item-inner">
                                                 <div class="thumb">
-                                                    <img src="assets/images/feature/two.png" alt="Image">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/images/feature/two.png" alt="Image">
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="h5 text-uppercase">pixel perfect result</h5>
@@ -362,7 +362,7 @@
                                         <div class="feature__item">
                                             <div class="feature__item-inner">
                                                 <div class="thumb">
-                                                    <img src="assets/images/feature/three.png" alt="Image">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/images/feature/three.png" alt="Image">
                                                 </div>
                                                 <div class="content">
                                                     <h5 class="h5 text-uppercase">24/7 support</h5>
@@ -389,14 +389,14 @@
                 <div class="row gaper align-items-center">
                     <div class="col-12 col-lg-6">
                         <div class="choose-section__thumb wow fadeInLeft" data-wow-duration="600ms" data-wow-delay="600ms">
-                            <img src="assets/images/choose/before.png" alt="Image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/choose/before.png" alt="Image">
                             <div class="video-wrap d-block d-xl-none">
                                 <a href="https://www.youtube.com/watch?v=RvreULjnzFo" target="_blank" title="video Player" class="video-btn">
                                     <i class="icon-play"></i>
                                 </a>
                             </div>
                             <div class="choose-section__thumb-video">
-                                <img src="assets/images/choose/thumb.png" alt="Image" class="cbv">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/choose/thumb.png" alt="Image" class="cbv">
                                 <div class="video-wrap d-none d-xl-block">
                                     <a href="https://www.youtube.com/watch?v=RvreULjnzFo" target="_blank" title="video Player" class="video-btn">
                                         <i class="icon-play"></i>
@@ -416,7 +416,7 @@
                             <ul>
                                 <li class="wow fadeInUp" data-wow-duration="600ms" data-wow-delay="600ms">
                                     <div class="thumb">
-                                        <img src="assets/images/choose/icon-one.png" alt="Image">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/choose/icon-one.png" alt="Image">
                                     </div>
                                     <div class="content">
                                         <p class="h5">Automatic & Quick Results</p>
@@ -425,7 +425,7 @@
                                 </li>
                                 <li class="wow fadeInUp" data-wow-duration="600ms" data-wow-delay="900ms">
                                     <div class="thumb">
-                                        <img src="assets/images/choose/icon-two.png" alt="Image">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/choose/icon-two.png" alt="Image">
                                     </div>
                                     <div class="content">
                                         <p class="h5">Increase Resolution</p>
@@ -434,7 +434,7 @@
                                 </li>
                                 <li class="wow fadeInUp" data-wow-duration="600ms" data-wow-delay="1200ms">
                                     <div class="thumb">
-                                        <img src="assets/images/choose/icon-three.png" alt="Image">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/choose/icon-three.png" alt="Image">
                                     </div>
                                     <div class="content">
                                         <p class="h5">Retain Details</p>
@@ -462,9 +462,9 @@
                                 <div class="row gaper align-items-center">
                                     <div class="col-12 col-lg-4">
                                         <div class="testimonnial-two__slider-item__thumb text-lg-end">
-                                            <img src="assets/images/testimonial/testimonial-thumb.png" alt="Image">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/testimonial-thumb.png" alt="Image">
                                             <div class="trust">
-                                                <img src="assets/images/testimonial/trust.png" alt="Image">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/trust.png" alt="Image">
                                             </div>
                                         </div>
                                     </div>
@@ -488,7 +488,7 @@
                                             <div class="d-flex align-items-center justify-content-between position-relative">
                                                 <div class="testimonnial-two__slider-item__content-meta">
                                                     <div class="thumb">
-                                                        <img src="assets/images/testimonial/author-three.png" alt="Image">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/author-three.png" alt="Image">
                                                     </div>
                                                     <div class="content">
                                                         <p class="h5">Delores Olivo</p>
@@ -504,9 +504,9 @@
                                 <div class="row gaper align-items-center">
                                     <div class="col-12 col-lg-4">
                                         <div class="testimonnial-two__slider-item__thumb text-lg-end">
-                                            <img src="assets/images/testimonial/testimonial-thumb.png" alt="Image">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/testimonial-thumb.png" alt="Image">
                                             <div class="trust">
-                                                <img src="assets/images/testimonial/trust.png" alt="Image">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/trust.png" alt="Image">
                                             </div>
                                         </div>
                                     </div>
@@ -530,7 +530,7 @@
                                             <div class="d-flex align-items-center justify-content-between position-relative">
                                                 <div class="testimonnial-two__slider-item__content-meta">
                                                     <div class="thumb">
-                                                        <img src="assets/images/testimonial/author-three.png" alt="Image">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/author-three.png" alt="Image">
                                                     </div>
                                                     <div class="content">
                                                         <p class="h5">Delores Olivo</p>
@@ -546,9 +546,9 @@
                                 <div class="row gaper align-items-center">
                                     <div class="col-12 col-lg-4">
                                         <div class="testimonnial-two__slider-item__thumb text-lg-end">
-                                            <img src="assets/images/testimonial/testimonial-thumb.png" alt="Image">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/testimonial-thumb.png" alt="Image">
                                             <div class="trust">
-                                                <img src="assets/images/testimonial/trust.png" alt="Image">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/trust.png" alt="Image">
                                             </div>
                                         </div>
                                     </div>
@@ -572,7 +572,7 @@
                                             <div class="d-flex align-items-center justify-content-between position-relative">
                                                 <div class="testimonnial-two__slider-item__content-meta">
                                                     <div class="thumb">
-                                                        <img src="assets/images/testimonial/author-three.png" alt="Image">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/author-three.png" alt="Image">
                                                     </div>
                                                     <div class="content">
                                                         <p class="h5">Delores Olivo</p>
@@ -591,8 +591,8 @@
                 </div>
             </div>
             <div class="anime">
-                <img src="assets/images/testimonial/circle.png" alt="Image" class="one">
-                <img src="assets/images/testimonial/polygon.png" alt="Image" class="two">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/circle.png" alt="Image" class="one">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/polygon.png" alt="Image" class="two">
             </div>
         </section>
         <!-- ==== / testimonial section end ==== -->
@@ -607,9 +607,9 @@
                                 <div class="row gaper align-items-center">
                                     <div class="col-12 col-lg-4">
                                         <div class="testimonnial-two__slider-item__thumb text-lg-end">
-                                            <img src="assets/images/testimonial/testimonial-thumb.png" alt="Image">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/testimonial-thumb.png" alt="Image">
                                             <div class="trust">
-                                                <img src="assets/images/testimonial/trust.png" alt="Image">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/trust.png" alt="Image">
                                             </div>
                                         </div>
                                     </div>
@@ -633,7 +633,7 @@
                                             <div class="d-flex align-items-center justify-content-between position-relative">
                                                 <div class="testimonnial-two__slider-item__content-meta">
                                                     <div class="thumb">
-                                                        <img src="assets/images/testimonial/author-three.png" alt="Image">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/author-three.png" alt="Image">
                                                     </div>
                                                     <div class="content">
                                                         <p class="h5">Delores Olivo</p>
@@ -649,9 +649,9 @@
                                 <div class="row gaper align-items-center">
                                     <div class="col-12 col-lg-4">
                                         <div class="testimonnial-two__slider-item__thumb text-lg-end">
-                                            <img src="assets/images/testimonial/testimonial-thumb.png" alt="Image">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/testimonial-thumb.png" alt="Image">
                                             <div class="trust">
-                                                <img src="assets/images/testimonial/trust.png" alt="Image">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/trust.png" alt="Image">
                                             </div>
                                         </div>
                                     </div>
@@ -675,7 +675,7 @@
                                             <div class="d-flex align-items-center justify-content-between position-relative">
                                                 <div class="testimonnial-two__slider-item__content-meta">
                                                     <div class="thumb">
-                                                        <img src="assets/images/testimonial/author-three.png" alt="Image">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/author-three.png" alt="Image">
                                                     </div>
                                                     <div class="content">
                                                         <p class="h5">Delores Olivo</p>
@@ -691,9 +691,9 @@
                                 <div class="row gaper align-items-center">
                                     <div class="col-12 col-lg-4">
                                         <div class="testimonnial-two__slider-item__thumb text-lg-end">
-                                            <img src="assets/images/testimonial/testimonial-thumb.png" alt="Image">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/testimonial-thumb.png" alt="Image">
                                             <div class="trust">
-                                                <img src="assets/images/testimonial/trust.png" alt="Image">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/trust.png" alt="Image">
                                             </div>
                                         </div>
                                     </div>
@@ -717,7 +717,7 @@
                                             <div class="d-flex align-items-center justify-content-between position-relative">
                                                 <div class="testimonnial-two__slider-item__content-meta">
                                                     <div class="thumb">
-                                                        <img src="assets/images/testimonial/author-three.png" alt="Image">
+                                                        <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/author-three.png" alt="Image">
                                                     </div>
                                                     <div class="content">
                                                         <p class="h5">Delores Olivo</p>
@@ -736,8 +736,8 @@
                 </div>
             </div>
             <div class="anime">
-                <img src="assets/images/testimonial/circle.png" alt="Image" class="one">
-                <img src="assets/images/testimonial/polygon.png" alt="Image" class="two">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/circle.png" alt="Image" class="one">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/testimonial/polygon.png" alt="Image" class="two">
             </div>
         </section>
         <!-- ==== / testimonial section end ==== -->
@@ -772,7 +772,7 @@
                                     <p>39¢ PER IMAGE</p>
                                 </div>
                                 <div class="thumb">
-                                    <img src="assets/images/pricing/small-one.png" alt="Image">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/pricing/small-one.png" alt="Image">
                                 </div>
                             </div>
                             <hr>
@@ -795,7 +795,7 @@
                                     <p>39¢ PER IMAGE</p>
                                 </div>
                                 <div class="thumb">
-                                    <img src="assets/images/pricing/small-two.png" alt="Image">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/pricing/small-two.png" alt="Image">
                                 </div>
                             </div>
                             <hr>
@@ -818,7 +818,7 @@
                                     <p>39¢ PER IMAGE</p>
                                 </div>
                                 <div class="thumb">
-                                    <img src="assets/images/pricing/small-three.png" alt="Image">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/pricing/small-three.png" alt="Image">
                                 </div>
                             </div>
                             <hr>
@@ -841,7 +841,7 @@
                                     <p>39¢ PER IMAGE</p>
                                 </div>
                                 <div class="thumb">
-                                    <img src="assets/images/pricing/small-four.png" alt="Image">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/pricing/small-four.png" alt="Image">
                                 </div>
                             </div>
                             <hr>
@@ -977,7 +977,7 @@
                     <div class="col-12 col-xxl-10">
                         <div class="project__inner">
                             <div class="project__thumb text-center wow fadeInUp" data-wow-duration="600ms" data-wow-delay="600ms">
-                                <img src="assets/images/project-thumb.png" alt="Image">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/project-thumb.png" alt="Image">
                             </div>
                             <div class="project__content section__content text-center">
                                 <h2 class="h2 title text-uppercase wow fadeInUp" data-wow-duration="600ms" data-wow-delay="900ms">
@@ -1036,7 +1036,7 @@
                                         </div>
                                         <div class="thumb">
                                             <a href="blog-single.html">
-                                                <img src="assets/images/news/four.png" alt="Image">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/images/news/four.png" alt="Image">
                                             </a>
                                         </div>
                                     </div>
@@ -1054,7 +1054,7 @@
                                         </div>
                                         <div class="thumb">
                                             <a href="blog-single.html">
-                                                <img src="assets/images/news/four.png" alt="Image">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/images/news/four.png" alt="Image">
                                             </a>
                                         </div>
                                     </div>
@@ -1072,7 +1072,7 @@
                                         </div>
                                         <div class="thumb">
                                             <a href="blog-single.html">
-                                                <img src="assets/images/news/four.png" alt="Image">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/images/news/four.png" alt="Image">
                                             </a>
                                         </div>
                                     </div>
@@ -1086,7 +1086,7 @@
                         <div class="news-two__alt wow fadeInUp" data-wow-duration="600ms" data-wow-delay="600ms">
                             <div class="thumb">
                                 <a href="blog-single.html">
-                                    <img src="assets/images/news/five.png" alt="Image">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/images/news/five.png" alt="Image">
                                 </a>
                             </div>
                             <div class="content">

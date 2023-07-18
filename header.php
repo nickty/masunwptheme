@@ -140,7 +140,7 @@
                                                         </div>
                                                         <div class="mega-menu__single-item">
                                                             <a href="service-details.html">
-                                                                <img src="assets/images/services/three.png" alt="Services">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/three.png" alt="Services">
                                                                 <span>
                                                                     photo retouch
                                                                 </span>
@@ -148,7 +148,7 @@
                                                         </div>
                                                         <div class="mega-menu__single-item">
                                                             <a href="service-details.html">
-                                                                <img src="assets/images/services/four.png" alt="Services">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/four.png" alt="Services">
                                                                 <span>
                                                                     Clipping path services
                                                                 </span>
@@ -156,7 +156,7 @@
                                                         </div>
                                                         <div class="mega-menu__single-item">
                                                             <a href="service-details.html">
-                                                                <img src="assets/images/services/five.png" alt="Services">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/five.png" alt="Services">
                                                                 <span>
                                                                     photo colorize
                                                                 </span>
@@ -164,7 +164,7 @@
                                                         </div>
                                                         <div class="mega-menu__single-item">
                                                             <a href="service-details.html">
-                                                                <img src="assets/images/services/six.png" alt="Services">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/six.png" alt="Services">
                                                                 <span>
                                                                     Clipping path services
                                                                 </span>
@@ -177,7 +177,7 @@
                                                         </div>
                                                         <div class="mega-menu__single-item">
                                                             <a href="service-details.html">
-                                                                <img src="assets/images/services/icon-one.png" alt="Services">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/icon-one.png" alt="Services">
                                                                 <span>
                                                                     convert any format
                                                                 </span>
@@ -185,7 +185,7 @@
                                                         </div>
                                                         <div class="mega-menu__single-item">
                                                             <a href="service-details.html">
-                                                                <img src="assets/images/services/icon-two.png" alt="Services">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/icon-two.png" alt="Services">
                                                                 <span>
                                                                     photo enlarge
                                                                 </span>
@@ -193,7 +193,7 @@
                                                         </div>
                                                         <div class="mega-menu__single-item">
                                                             <a href="service-details.html">
-                                                                <img src="assets/images/services/icon-three.png" alt="Services">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/icon-three.png" alt="Services">
                                                                 <span>
                                                                     image compress
                                                                 </span>
@@ -201,7 +201,7 @@
                                                         </div>
                                                         <div class="mega-menu__single-item">
                                                             <a href="service-details.html">
-                                                                <img src="assets/images/services/icon-four.png" alt="Services">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/icon-four.png" alt="Services">
                                                                 <span>
                                                                     image crop
                                                                 </span>
@@ -209,7 +209,7 @@
                                                         </div>
                                                         <div class="mega-menu__single-item">
                                                             <a href="service-details.html">
-                                                                <img src="assets/images/services/icon-five.png" alt="Services">
+                                                                <img src="<?php echo get_template_directory_uri(); ?>/images/services/icon-five.png" alt="Services">
                                                                 <span>
                                                                     Special tools
                                                                 </span>
